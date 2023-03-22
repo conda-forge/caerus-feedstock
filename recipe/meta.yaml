@@ -1,4 +1,4 @@
-{% set version = "0.1.8" %}
+{% set version = "0.1.9" %}
 
 package:
   name: caerus
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/c/caerus/caerus-{{ version }}.tar.gz
-  sha256: 5a23ea41a3a93865ae9f831bb50a642cfaad19ad8678f927cd630689573de31b
+  sha256: 06b793c4537b663438270ea740c65eafe72d987ad18e942c85bab1bfc6a3a216
 
 build:
   number: 0
