@@ -7,9 +7,11 @@ package:
 source:
   url: https://pypi.org/packages/source/c/caerus/caerus-{{ version }}.tar.gz
   sha256: e2cac5a1f1c5cbdebfa687ccb969a64630510f597724a6590049d1ee79452353
+  patches:
+    - replace_wget_with_requests.patch  # remove after next release
 
 build:
-  number: 1
+  number: 2
   noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
