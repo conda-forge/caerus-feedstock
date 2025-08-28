@@ -45,16 +45,3 @@ index 43c580d..9a51341 100644
  
          # Import local dataset
          if verbose>=3: print('[caerus] Import dataset..')
-diff --git a/requirements.txt b/requirements.txt
-index 29f9c84..7198daf 100644
---- a/requirements.txt
-+++ b/requirements.txt
-@@ -2,7 +2,7 @@
- #conda activate env_caerus
- #conda install spyder
- 
--wget
-+requests
- matplotlib 
- numpy 
- pandas 
