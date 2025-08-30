@@ -1,4 +1,4 @@
-{% set version = "0.1.10" %}
+{% set version = "1.0.0" %}
 
 package:
   name: caerus
@@ -6,12 +6,12 @@ package:
 
 source:
   url: https://pypi.org/packages/source/c/caerus/caerus-{{ version }}.tar.gz
-  sha256: e2cac5a1f1c5cbdebfa687ccb969a64630510f597724a6590049d1ee79452353
+  sha256: 6b8db65b1d27be4472a9e73aa9dc3c19cce9b7e78bfc872633eeebc3ba4d8717
   patches:
     - replace_wget_with_requests.patch  # remove after next release
 
 build:
-  number: 2
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
