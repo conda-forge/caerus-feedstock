@@ -28,6 +28,7 @@ requirements:
     - pandas
     - requests
     - tqdm
+    - datazets
 
 tests:
   - python:
